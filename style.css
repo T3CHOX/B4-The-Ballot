@@ -85,3 +85,8 @@ footer {
   padding: 1em 0;
   text-align: center;
 }
+body {
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
