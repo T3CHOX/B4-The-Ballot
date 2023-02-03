@@ -89,3 +89,15 @@ footer {
    width: 20%;
    height: 20%;
 }
+.logo {
+  color: red;
+  font-size: 2em;
+  float: left;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+.num {
+  color: blue;
+}
+
