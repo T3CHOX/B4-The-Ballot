@@ -1,14 +1,48 @@
-header nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-  background-color: lightgray;
+/* Reset */
+body,
+html {
+  margin: 0;
+  padding: 0;
 }
 
-header nav a {
-  text-decoration: none;
+/* Typography */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: bold;
-  color: black;
+  margin-bottom: 1em;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+/* Header */
+header {
+  background-color: #eee;
+  padding: 1em 0;
+}
+
+header img {
+  float: left;
+  margin-right: 1em;
+}
+
+header nav {
+  float: right;
 }
 
 header nav ul {
@@ -18,23 +52,36 @@ header nav ul {
   display: flex;
 }
 
-header nav a,
-header nav li {
-  color: gray;
+header nav ul li {
+  margin-left: 1em;
+}
+
+header nav a {
   text-decoration: none;
-  padding: 0 1rem;
+  color: #333;
 }
 
-main {
-  padding: 2rem;
+/* Hero section */
+#hero {
+  background-color: #333;
+  color: #fff;
+  padding: 2em 0;
 }
 
+#hero h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+/* Section */
 section {
-  margin-bottom: 2rem;
+  padding: 2em 0;
 }
 
+/* Footer */
 footer {
-  background-color: lightgray;
-  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  padding: 1em 0;
   text-align: center;
 }
